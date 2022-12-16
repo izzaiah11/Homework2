@@ -4,38 +4,57 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Isaiah's Portfolio</title>
+    
+    <link rel="stylesheet" href="/Homework2/style.css">
+    <title class="title">Isaiah's Portfolio</title>
 </head>
 
 <body>
     <header class="header">
-        <h1>Isaiah's portfolio</h1>
         <nav>
+            <h1>Isaiah</h1>
             <ul>
-                <li><a href="#About-me">About me</a></li>
-                <li><a href="#My-work">My work</a></li>
-                <li><a href="#Contact-me">Contact me</a></li>
+                <li><a href="#about-me">About me</a></li>
+                <li><a href="#my-work">My work</a></li>
+                <li><a href="#contact-me">Contact me</a></li>
             </ul>
         </nav>
     </header>
-    <img src="/Homework2/Assests/Profilephoto.png" alt="Profile photo of Isaiah" />
+    <!-- <img class="icon" src="/Homework2/Assests/profileimage.png" alt="Emoji of Isaiah working on computer" /> --> 
+    <!-- <div class="hero"></div> -->
+    <figure> 
+        <img class="emoji" src="/Homework2/Assests/profileimagetwo.png" alt="Emoji of Isaiah working on computer" />
+        <figcaption class="bio">Hi 👋 my name is Isaiah. <br>
+            <br> Junior developer learning HTML, CSS, & Javascript.</figcaption>
+    </figure>
+    <br>
+    <main class="content">
+            <div id="about-me" class="about-me">
+                <h2>About me</h2>
+                <p class="p"> Isaiah loves to work out, go to the beach, 
+                & give back to his communities. He is Black, Gay, & 
+                Adopted & each on of those experiences has shaped 
+                and sharpened his creativity to think outisde the box, 
+                pushing traditions aside and thinking of new perspectives. 
+                As a junior developer he hopes to bring his fresh prespectives
+                to an outside the box environment.</p>
+            </div>
+            <div id="my-work" class="my-work">
+                <h2>My work</h2>
+                <p>Thanks for checking out my work.</p>
+                <div class="work">
+                    <img src="/Homework2/Assests/placeholder.png" alt=""/>
+                </div>
+                <div class="work">
+                    <img src="/Homework2/Assests/placeholder.png" alt=""/>
+                </div>
+                <div class="work">
+                    <img src="/Homework2/Assests/placeholder.png" alt=""/>
+                </div>
+            </div>
+            <div id="contact-me" class="contact-me">
+                <h2>Let's connect</h2>
+            </div>
+        
+    </main>
 </body>
-
-<main class="content">
-    <section id="about-me" class="about-me">
-        <img src="./assets/images/search-engine-optimization.jpg" alt="Notebook with marketing strategy" class="float-left" />
-        <h2>About me</h2>
-        <p> <!-- write short bio --> </p>
-    </section>
-    <section id="my work" class="my-work">
-        <img src="./assets/images/online-reputation-management.jpg" alt="Computer with repuation statstics going up" class="float-right" />
-        <h2>My work</h2>
-        <p> <!-- write about your work --> </p>
-    </section>
-    <section id="contact-me" class="contact-me">
-        <img src="./assets/images/social-media-marketing.jpg" alt="Social media team meeting" class="float-left" />
-        <h2>Contact me</h2>
-        <p> <!--write about contactig me --> </p>
-    </section>
-</main>
